@@ -61,7 +61,7 @@ Headlights (LEDs)
 
 ## Circuit Diagram
 
-![Circuit Diagram](Circuit_diagram.jpeg)
+![Circuit Diagram](Circuit_diagram.png)
 
 ## Flowchart
 
