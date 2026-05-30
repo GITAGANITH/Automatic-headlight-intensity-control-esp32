@@ -1,6 +1,6 @@
 # 🚗 Automatic Headlight Intensity Control using ESP32
 
-## 📖 Project Overview
+##  Project Overview
 
 This project automatically adjusts headlight brightness based on ambient light intensity using an ESP32 microcontroller, an LDR sensor module, PWM control, and a MOSFET driver stage.
 
