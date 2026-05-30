@@ -89,13 +89,32 @@ Headlights (LEDs)
 
 ## 🔄 Working Principle
 
-1. The LDR continuously senses surrounding light.
-2. The ESP32 reads the analog voltage through GPIO34.
-3. ADC converts the signal into digital values (0–4095).
-4. The digital value is mapped to a PWM output.
-5. PWM controls the MOSFET.
-6. MOSFET adjusts LED brightness automatically.
-7. Bright light causes dimming, while darkness restores maximum brightness.
+## Project Demonstration
+
+The system continuously monitors ambient light intensity using an LDR sensor connected to the ESP32.
+
+### Dark Environment
+- The LDR detects low light intensity.
+- ESP32 reads a lower ADC value.
+- The ADC value is mapped to a higher PWM duty cycle.
+- The MOSFET receives a stronger PWM signal.
+- Both LEDs operate at maximum brightness.
+
+### Bright Environment
+- The LDR detects higher light intensity.
+- ESP32 reads a higher ADC value.
+- The ADC value is mapped to a lower PWM duty cycle.
+- The MOSFET receives a reduced PWM signal.
+- LED brightness decreases automatically.
+
+### Control Mechanism
+1. LDR senses ambient light.
+2. ESP32 converts the analog signal into a digital ADC value.
+3. The ADC value is processed and mapped to a PWM range.
+4. PWM is generated on GPIO25.
+5. The MOSFET acts as a power driver.
+6. The MOSFET controls current through the LEDs.
+7. LED brightness adjusts automatically according to surrounding light conditions.
 
 ---
 
