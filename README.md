@@ -140,24 +140,6 @@ The system continuously monitors ambient light intensity using an LDR sensor con
 
 ---
 
-
-## 📁 Project Structure
-
-```text
-automatic-headlight-intensity-control-esp32
-│
-├── code
-│   └── automatic_headlight_control.ino
-│
-├── circuit_diagram.png
-├── flowchart.png
-├── project_report.pdf
-│
-└── README.md
-```
-
----
-
 ## ⚠️ Limitations
 
 - LDR cannot distinguish vehicle headlights from streetlights
