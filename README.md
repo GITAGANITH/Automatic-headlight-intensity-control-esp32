@@ -59,6 +59,14 @@ Headlights (LEDs)
 
 ## 🔌 Circuit Connections
 
+## Circuit Diagram
+
+![Circuit Diagram](Circuit_diagram.jpeg)
+
+## Flowchart
+
+![Flowchart](Flowchart.jpeg)
+
 ### LDR Module
 
 | LDR Module | ESP32 |
@@ -113,6 +121,7 @@ Headlights (LEDs)
 
 ---
 
+
 ## 📁 Project Structure
 
 ```text
@@ -161,6 +170,6 @@ automatic-headlight-intensity-control-esp32
 
 ## 👨‍💻 Author
 
-Ashok Raj
+Aganith Rai
 
 Mini Project – Automatic Headlight Intensity Control using ESP32
